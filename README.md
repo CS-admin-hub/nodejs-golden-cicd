@@ -1,8 +1,8 @@
-# 🚀 Golden CI/CD Node.js
+# Golden CI/CD Node.js
 
 Production-ready Node.js Express API with automated CI/CD pipeline, Docker containerization, and Docker Hub integration.
 
-## 📋 Architecture
+##  Architecture
 
 ```
 golden-cicd-nodejs/
@@ -20,7 +20,7 @@ golden-cicd-nodejs/
 └── README.md
 ```
 
-## 🔄 CI/CD Flow
+##  CI/CD Flow
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -64,7 +64,7 @@ golden-cicd-nodejs/
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 🏃 Run Locally
+##  Run Locally
 
 ### Prerequisites
 - Node.js 20+
@@ -109,7 +109,7 @@ npm test
 npm run dev
 ```
 
-## 🐳 Run with Docker
+##  Run with Docker
 
 ### Build and run:
 ```bash
@@ -128,7 +128,7 @@ docker stop nodejs-app
 docker rm nodejs-app
 ```
 
-## 🐳 Docker Hub
+##  Docker Hub
 
 ### Pull from Docker Hub:
 ```bash
@@ -143,7 +143,7 @@ docker run -d -p 3000:3000 ninad04/golden-cicd-nodejs:latest
 | `/` | GET | Root endpoint | `{"message": "...", "environment": "...", "version": "..."}` |
 | `/health` | GET | Health check | `{"status": "OK", "environment": "...", "uptime": ..., "timestamp": "..."}` |
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -166,7 +166,7 @@ npm run lint
 npm run lint:fix
 ```
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 | Variable | Default | Description |
 |----------|---------|-------------|
@@ -174,14 +174,14 @@ npm run lint:fix
 | `PORT` | `3000` | Application port |
 | `NODE_ENV` | `development` | Node environment |
 
-## 📦 Docker Image Details
+##  Docker Image Details
 
 - Base: `node:20-alpine`
 - Size: ~120MB (optimized)
 - Port: 3000
 - Runtime: Node.js 20
 
-## ☁️ Deploy to EC2 (Future)
+##  Deploy to EC2 (Future)
 
 The repository includes commented EC2 deployment code. To enable:
 
@@ -189,7 +189,7 @@ The repository includes commented EC2 deployment code. To enable:
 2. Uncomment EC2 job in `.github/workflows/ci-cd.yml`
 3. Push changes
 
-## 🔧 Scripts
+##  Scripts
 
 | Script | Description |
 |--------|-------------|
@@ -200,7 +200,7 @@ The repository includes commented EC2 deployment code. To enable:
 | `npm run lint` | Check code quality |
 | `npm run lint:fix` | Fix linting issues |
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Port already in use
 ```bash
@@ -222,11 +222,11 @@ npm test -- --verbose
 docker logs nodejs-app
 ```
 
-## 📝 License
+##  License
 
 MIT
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch
@@ -236,4 +236,4 @@ MIT
 
 ---
 
-Built with ❤️ using Node.js, Express, Docker, and GitHub Actions
+Built with using Node.js, Express, Docker, and GitHub Actions
