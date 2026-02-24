@@ -60,7 +60,7 @@ golden-cicd-nodejs/
                              │
                              ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│  ✅ PIPELINE COMPLETE                                           │
+│   PIPELINE COMPLETE                                           │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -136,7 +136,7 @@ docker pull ninad04/golden-cicd-nodejs:latest
 docker run -d -p 3000:3000 ninad04/golden-cicd-nodejs:latest
 ```
 
-## 📊 API Endpoints
+##  API Endpoints
 
 | Endpoint | Method | Description | Response |
 |----------|--------|-------------|----------|
